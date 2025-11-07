@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/home/bogdan22tsb/Documents'
+let g:netrw_dirhist_9='/home/bogdan22tsb/Documents/vim-config'
+let g:netrw_dirhist_8='/home/bogdan22tsb/.vim'
+let g:netrw_dirhist_7='/home/bogdan22tsb/Documents/cpp'
+let g:netrw_dirhist_6='/home/bogdan22tsb/Documents/crwn-clothing/src'
+let g:netrw_dirhist_5='/home/bogdan22tsb/.vim'
+let g:netrw_dirhist_4='/home/bogdan22tsb/.vim/autoload'
+let g:netrw_dirhist_3='/home/bogdan22tsb/.vim'
+let g:netrw_dirhist_2='/home/bogdan22tsb/.config/nvim'
+let g:netrw_dirhist_1='/home/bogdan22tsb/Documents/vscode/crwn-clothing'
