@@ -82,3 +82,16 @@ vim.api.nvim_set_keymap("i", "{;<CR>", "{<CR>};<Esc>O", { noremap = true, silent
 vim.keymap.set("v", "<Tab>", ">gv", { desc = "Indent visual selection" })
 -- Outdent selected lines and keep selection
 vim.keymap.set("v", "<S-Tab>", "<gv", { desc = "Outdent visual selection" })
+
+-- surround text in visual mode
+
+-- Parentheses
+vim.keymap.set("v", "(", "<esc>`>a)<esc>`<i(<esc>gv", { remap = false })
+-- Curly braces
+vim.keymap.set("v", "{", "<esc>`>a}<esc>`<i{<esc>gv", { remap = false })
+-- Square brackets
+vim.keymap.set("v", "[", "<esc>`>a]<esc>`<i[<esc>gv", { remap = false })
+-- Double quotes
+vim.keymap.set("v", '"', '<esc>`>a"<esc>`<i"<esc>gv', { remap = false })
+-- Single quotes
+vim.keymap.set("v", "'", "<esc>`>a'<esc>`<i'<esc>gv", { remap = false })
